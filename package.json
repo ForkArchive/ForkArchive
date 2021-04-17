@@ -1,0 +1,16 @@
+{
+  "name": "forkarchive",
+  "version": "1.0.0",
+  "description": "A bot to fork and archive repositories",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "Nathan Fallet",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@octokit/rest": "^18.5.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
